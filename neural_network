@@ -1,0 +1,41 @@
+digraph {
+	{
+		rank=same
+		{
+			rank=same
+			"Layer 1 Node 1"
+			"Layer 1 Node 2"
+			"Layer 1 Node 3"
+			"Layer 1 Node 4"
+		}
+		{
+			rank=same
+			"Layer 2 Node 1"
+			"Layer 2 Node 2"
+			"Layer 2 Node 3"
+		}
+		{
+			rank=same
+			"Layer 3 Node 1"
+			"Layer 3 Node 2"
+		}
+	}
+	"Layer 1 Node 1" -> "Layer 2 Node 1"
+	"Layer 1 Node 1" -> "Layer 2 Node 2"
+	"Layer 1 Node 1" -> "Layer 2 Node 3"
+	"Layer 1 Node 2" -> "Layer 2 Node 1"
+	"Layer 1 Node 2" -> "Layer 2 Node 2"
+	"Layer 1 Node 2" -> "Layer 2 Node 3"
+	"Layer 1 Node 3" -> "Layer 2 Node 1"
+	"Layer 1 Node 3" -> "Layer 2 Node 2"
+	"Layer 1 Node 3" -> "Layer 2 Node 3"
+	"Layer 1 Node 4" -> "Layer 2 Node 1"
+	"Layer 1 Node 4" -> "Layer 2 Node 2"
+	"Layer 1 Node 4" -> "Layer 2 Node 3"
+	"Layer 2 Node 1" -> "Layer 3 Node 1"
+	"Layer 2 Node 1" -> "Layer 3 Node 2"
+	"Layer 2 Node 2" -> "Layer 3 Node 1"
+	"Layer 2 Node 2" -> "Layer 3 Node 2"
+	"Layer 2 Node 3" -> "Layer 3 Node 1"
+	"Layer 2 Node 3" -> "Layer 3 Node 2"
+}
